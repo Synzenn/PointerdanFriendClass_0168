@@ -18,4 +18,8 @@ public:
 	 refMhs.nim = 2; //member acces operator
 	 mhs.showNim();
 
+	 mahasiswa* pMhs = &mhs; //pointer Dereferences pMhs
+	 pMhs->nim = 3; //Arrow Operator
+	 pMhs->showNim();
+	 return 0;
  }
