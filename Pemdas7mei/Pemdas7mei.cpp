@@ -14,5 +14,8 @@ public:
 	 mahasiswa mhs{1}; //object mhs
 	 mhs.showNim();	//member acces operator
 
-	
+	 mahasiswa& refMhs = mhs; //pointer references refMhs
+	 refMhs.nim = 2; //member acces operator
+	 mhs.showNim();
+
  }
